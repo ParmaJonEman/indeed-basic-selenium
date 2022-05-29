@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Search Edge Cases">
+    <test name="HappyPath">
+      <classes>
+        <class name="com.indeed.tests.SearchSmoketest"/>
+      </classes>
+    </test>
+    <test name="EdgeCases">
+        <classes>
+          <class name="com.indeed.tests.SearchEdgeCases"/>
+        </classes>
+    </test>
+    <test name="SecurityTest">
+        <classes>
+            <class name="com.indeed.tests.SearchSecurity"/>
+        </classes>
+    </test>
+</suite>
